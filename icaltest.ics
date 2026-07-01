@@ -4,17 +4,19 @@ PRODID:-//Mon Agenda//Fait Maison//FR
 CALSCALE:GREGORIAN
 
 BEGIN:VEVENT
+UID:booking-estival-2026-001
 SUMMARY:Escapade Estivale
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260808
-DESCRIPTION:Un petit break de 3 jours.
+DESCRIPTION:Un petit break de 3 jours. Contact: voyageur.estival@example.com ou tel: +33612345678
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Grand Week-end Août
+UID:booking-août-2026-002
+SUMMARY:Booking.com - Jean Dupont
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260824
-DESCRIPTION:Un long break de 4 jours.
+DESCRIPTION:Un long break de 4 jours. Contact: jean.dupont@test.com
 END:VEVENT
 
 END:VCALENDAR
